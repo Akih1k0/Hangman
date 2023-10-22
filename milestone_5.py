@@ -1,7 +1,17 @@
 import random
 
 class Hangman:
-
+    '''
+    A simple Hangman game class.
+    
+    Attributes:
+        word_list (list): List of words for the game.
+        num_lives (int): Number of lives the player has (default is 5).
+        word (str): The word to be guessed.
+        word_guessed (list): A list representing the current state of the word with underscores for unrevealed letters.
+        num_letters (int): Number of unique letters in the word.
+        list_of_guesses (list): List to store all the guessed letters.
+    '''
     def __init__(self, word_list, num_lives = 5):
         self.word_list = word_list
         self.num_lives = num_lives
@@ -13,9 +23,13 @@ class Hangman:
 
     def check_letter(self, letter):
         '''
-        Check if the guessed letter is in the word and manage 
-        lives and letters left accordingly.
-        Guess changed to letter for uniformity
+        Initializes the Hangman game with a random word from the word list.
+
+        Args:
+            word_list (list): List of words to choose from.
+            num_lives (int): Number of lives the player has (default is 5).
+
+        Initializes the game state, including the selected word, word_guessed, and list_of_guesses.
         '''
         letter = letter.lower()
         if letter in self.word:
@@ -31,7 +45,10 @@ class Hangman:
 
     def ask_for_input(self):
         '''
-        Ask the user to guess a letter and handle invalid input.
+         Ask the user to guess a letter and handle invalid input.
+
+        Continuously prompts the user for input until a valid letter is provided.
+
         '''
         while True:
             letter = input('Enter a single letter: ')
@@ -46,8 +63,12 @@ class Hangman:
 
 def play_game(word_list):
     '''
-    Initialises a variable of the Hangman class
-    Produces the flow of the game.    
+    Initialize and play the Hangman game.
+
+    Args:
+        word_list (list): List of words for the game.
+
+    Initializes the Hangman game and manages the game flow until the player either wins or runs out of lives. 
     '''
     game = Hangman(word_list, num_lives = 5)
     while True:
