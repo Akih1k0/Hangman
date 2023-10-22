@@ -15,13 +15,15 @@ To run the Hangman game on your local machine, follow these installation instruc
 4. Navigate to the project directory.
 5. Open the designated file for the game.
 
-## Usage
+## Usage Instructions
 To play the game of hangman:
 1. A random word is chosen after the code is run.
 2. The user would input a letter as their 'Guess'.
-3. The guess is then analysed against the word to determine whether it was a correct guess displaying a message to confirm or an incorrect guess showing a message to try again and losing a life.
-4. In the instance of it being correct it is added to the list of blanks to show how many letters left.
-5. The input would be checked if it is a valid input such as being in the alphabet and is a single letter.
+3. The input would be checked if it is a valid input such as being in the alphabet and is a single letter.
+4. The guess is then analysed against the word to determine whether it was a correct guess displaying a message to confirm or an incorrect guess showing a message to try again and losing a life.
+5. In the instance of it being correct it is added to the list of blanks to show how many letters left.
+6. Then the turn is repeated either asking for a new letter to complete the word or showing that the user has guessed the wrong letter reducing the life points.
+7. Once the game has ended the user would have either run out of lives, in that case losing, or guessed the word, in that case winning the game.
 
 ## File Structure
 hangman/
