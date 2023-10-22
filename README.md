@@ -5,7 +5,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 
 ## Description
-The Hangman Python Project is a classic word-guessing game where the player attempts to guess a hidden word one letter at a time. The aim of this project is to create an interactive and entertaining game while practicing and improving your Python programming skills. This project is also an excellent opportunity to understand and implement concepts like input handling, random word selection, and game logic.
+The Hangman Python Project is a classic word-guessing game where the player attempts to guess a hidden word one letter at a time. The aim of this project is to create an interactive and entertaining game while practicing and improving your Python programming skills. This project is also an excellent opportunity to understand and implement concepts like input handling, random word selection, and game logic. This code developes the understanding for using classes along side OOP to generate code with a good flow and simplistic struture to allow the user a good understanding of the project.
 
 ## Installation
 To run the Hangman game on your local machine, follow these installation instructions:
@@ -19,7 +19,9 @@ To run the Hangman game on your local machine, follow these installation instruc
 To play the game of hangman:
 1. A random word is chosen after the code is run.
 2. The user would input a letter as their 'Guess'.
-3. The input would be checked if it is a valid input such as being in the alphabet and is a single letter.
+3. The guess is then analysed against the word to determine whether it was a correct guess displaying a message to confirm or an incorrect guess showing a message to try again and losing a life.
+4. In the instance of it being correct it is added to the list of blanks to show how many letters left.
+5. The input would be checked if it is a valid input such as being in the alphabet and is a single letter.
 
 ## File Structure
 hangman/
@@ -28,4 +30,5 @@ hangman/
 ├── .gitignore
 ├── milestone_2.py
 ├── milestone_3.py
+├── milestone_4.py
 └── README.md
