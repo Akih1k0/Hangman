@@ -26,9 +26,9 @@ To play the game of hangman:
 7. Once the game has ended the user would have either run out of lives, in that case losing, or guessed the word, in that case winning the game.
 
 ## File Structure
-hangman/hangman/hangman_Template.py
-hangman/gitignore
-hangman/milestone_2.py
-hangman/milestone_3.py
-hangman/milestone_4.py
+hangman/hangman/hangman_Template.py,
+hangman/gitignore,
+hangman/milestone_2.py,
+hangman/milestone_3.py,
+hangman/milestone_4.py,
 hangman/README.md
