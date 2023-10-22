@@ -13,3 +13,19 @@ To run the Hangman game on your local machine, follow these installation instruc
 2. Clone this repository to your local machine or download the ZIP file and extract it.
 3. Open your terminal or command prompt.
 4. Navigate to the project directory.
+5. Open the designated file for the game.
+
+## Usage
+To play the game of hangman:
+1. A random word is chosen after the code is run.
+2. The user would input a letter as their 'Guess'.
+3. The input would be checked if it is a valid input such as being in the alphabet and is a single letter.
+
+## File Structure
+hangman/
+    ├── hangman
+    └── hangman_Template.py
+├── .gitignore
+├── milestone_2.py
+├── milestone_3.py
+└── README.md
