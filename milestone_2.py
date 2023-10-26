@@ -2,7 +2,7 @@ import random
 
 def random_word():
 
-    word_list = ['Apple', 'Banana', 'Pear', 'Kiwi', 'Grape']
+    word_list = ['Apple', 'Banana', 'Pear', 'Kiwi', 'Grape', 'Cherry']
     word = random.choice(word_list)
     print(word)
 

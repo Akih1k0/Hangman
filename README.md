@@ -1,8 +1,7 @@
-# Hangman
+# **Hangman Game**
 Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
-
 
 ## Description
 The Hangman Python Project is a classic word-guessing game where the player attempts to guess a hidden word one letter at a time. The aim of this project is to create an interactive and entertaining game while practicing and improving your Python programming skills. This project is also an excellent opportunity to understand and implement concepts like input handling, random word selection, and game logic. This code developes the understanding for using classes along side OOP to generate code with a good flow and simplistic struture to allow the user a good understanding of the project.
