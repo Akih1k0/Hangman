@@ -52,7 +52,7 @@ class Hangman:
         '''
         while True:
             letter = input('Enter a single letter: ')
-            if len(letter) != 1 and not letter.isalpha():
+            if len(letter) != 1 or not letter.isalpha():
                 print(f'Invalid letter. Please enter a single alphabetical character.')
             elif letter in self.list_of_guesses:
                 print('You already tried that letter!')
